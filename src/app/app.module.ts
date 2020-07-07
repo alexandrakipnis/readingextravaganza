@@ -11,6 +11,9 @@ import { CelebReadersComponent } from './celeb-readers/celeb-readers.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { ResourcesComponent } from './resources/resources.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatIconModule} from '@angular/material/icon';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 
 
@@ -31,6 +34,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     BrowserAnimationsModule,
     MatTabsModule,
     MatGridListModule,
+    MatIconModule,
+    FontAwesomeModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

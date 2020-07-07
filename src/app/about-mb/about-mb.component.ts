@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { faLaptop, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'app-about-mb',
@@ -7,6 +10,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutMbComponent implements OnInit {
 
+  emailIcon = faEnvelope;
+  desktopIcon = faLaptop;
+  instaIcon = faInstagram;
+  fbIcon = faFacebook;
   constructor() { }
 
   ngOnInit(): void {
