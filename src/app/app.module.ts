@@ -10,6 +10,9 @@ import { AboutMbComponent } from './about-mb/about-mb.component';
 import { CelebReadersComponent } from './celeb-readers/celeb-readers.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { ResourcesComponent } from './resources/resources.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+
+
 
 
 @NgModule({
@@ -21,11 +24,13 @@ import { ResourcesComponent } from './resources/resources.component';
     CelebReadersComponent,
     ActivitiesComponent,
     ResourcesComponent,
+    
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatGridListModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
