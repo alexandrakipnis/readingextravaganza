@@ -1,19 +1,33 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
+import { DashboardComponent } from './dashboard/dashboard.component'
+import { MatTabsModule } from '@angular/material/tabs';
+import { AboutMbComponent } from './about-mb/about-mb.component';
+import { CelebReadersComponent } from './celeb-readers/celeb-readers.component';
+import { ActivitiesComponent } from './activities/activities.component';
+import { ResourcesComponent } from './resources/resources.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    DashboardComponent,
+    AboutMbComponent,
+    CelebReadersComponent,
+    ActivitiesComponent,
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })
