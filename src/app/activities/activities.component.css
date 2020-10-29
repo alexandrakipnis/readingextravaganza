@@ -44,3 +44,12 @@ p{
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.mat-raised-button {
+    vertical-align: middle;
+}
+
+.button-container {
+   text-align: center;
+}
+
