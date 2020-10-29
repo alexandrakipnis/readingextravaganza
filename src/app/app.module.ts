@@ -13,6 +13,7 @@ import { ResourcesComponent } from './resources/resources.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatIconModule} from '@angular/material/icon';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -35,7 +36,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatTabsModule,
     MatGridListModule,
     MatIconModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatButtonModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
