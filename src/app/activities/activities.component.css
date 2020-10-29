@@ -31,11 +31,15 @@
   }
 
   .grid-image {
-    max-width: 35%;
+    max-width: 20%;
     height: auto; 
-    display: block;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;  
+}
+
+.image-container {
+    text-align: center;
 }
 
 p{
