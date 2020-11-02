@@ -72,6 +72,13 @@
     margin-left: auto;
     margin-right: auto;  
 }
+.grid-image-logan {
+    max-width: 32%;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
 
 .grid-image-white {
     max-width: 100%;
