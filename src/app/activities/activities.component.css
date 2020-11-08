@@ -38,6 +38,14 @@
     margin-right: auto;  
 }
 
+.grid-image-activity {
+    max-width: 16%;
+    height: auto; 
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
 .image-container {
     text-align: center;
 }
