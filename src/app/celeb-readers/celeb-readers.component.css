@@ -25,7 +25,7 @@
 }
 
 .grid-image-amanda {
-    max-width: 35%;
+    max-width: 40%;
     height: auto; 
     display: block;
     margin-left: auto;
@@ -33,7 +33,7 @@
 }
 
 .grid-image-trevion {
-    max-width: 50%;
+    max-width: 57%;
     height: auto; 
     display: block;
     margin-left: auto;
@@ -50,7 +50,7 @@
 }
 
 .grid-image-torey {
-    max-width: 32%;
+    max-width: 35%;
     height: auto; 
     display: block;
     margin-left: auto;
@@ -102,4 +102,11 @@ p{
     padding-left: 50px;
     padding-right: 50px;
     color: white;
+}
+.video {
+    padding: 10px;
+}
+
+.video-container {
+    text-align: center;
 }

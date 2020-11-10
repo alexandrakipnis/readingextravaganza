@@ -14,6 +14,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatIconModule} from '@angular/material/icon';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {MatButtonModule} from '@angular/material/button';
+import { BookComponent } from './book/book.component';
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 
 
@@ -28,6 +30,7 @@ import {MatButtonModule} from '@angular/material/button';
     CelebReadersComponent,
     ActivitiesComponent,
     ResourcesComponent,
+    BookComponent,
     
   ],
   imports: [
@@ -37,7 +40,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatGridListModule,
     MatIconModule,
     FontAwesomeModule,
-    MatButtonModule
+    MatButtonModule,
+    YouTubePlayerModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
