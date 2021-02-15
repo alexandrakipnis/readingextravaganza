@@ -12,18 +12,30 @@
     text-align: left;
   }
 
+  .mbsubtitle {
+    font-family: 'Montserrat', sans-serif, bold;
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
 
   .mbtitle {
     font-family: 'Montserrat', sans-serif, bold;
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 30px;
-    padding-left: 20px;
-    padding-bottom: 10px;
     text-align: center;
     color: #dac194;
     text-shadow: 2px 1px black;
 }
 
+.mbtitle-a {
+    font-family: 'Montserrat', sans-serif, bold;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    color: #dac194;
+    text-shadow: 2px 1px black;
+}
 .grid-image-amanda {
     max-width: 40%;
     height: auto; 
